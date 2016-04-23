@@ -1,0 +1,6 @@
+*.jpg
+*.backup
+.DS_Store
+.git
+.terraform
+.vagrant
