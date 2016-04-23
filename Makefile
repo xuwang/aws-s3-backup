@@ -26,7 +26,7 @@ help:
 	@echo "Terraform usage: make [ plan | apply | destroy | info | help ]"
 
 plan: | ${TF_ACCOUNT}
-	@cd ${TF_DIR}; mkdir aritifacts; ${TF_PLAN}
+	@cd ${TF_DIR}; mkdir artifacts; ${TF_PLAN}
 
 apply: plan
 	@cd ${TF_DIR}; ${TF_APPLY}
